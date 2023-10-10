@@ -34,6 +34,7 @@
         "**/.hg": true,
         "**/.idea": true,
         "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
         "**/.ruff_cache": true,
         "**/.svn": true,
         "**/.venv": true,
@@ -48,6 +49,7 @@
     "outline.showVariables": false,
     // editor
     "editor.acceptSuggestionOnEnter": "smart",
+    "editor.accessibilitySupport": "off",
     "editor.cursorBlinking": "solid",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "block",
@@ -84,8 +86,9 @@
     //// github copilot
     "github.copilot.enable": {
         "*": true,
-        "yaml": false,
-        "plaintext": false
+        "plaintext": false,
+        "markdown": false,
+        "yaml": false
     },
     //// gitlens
     "gitlens.codeLens.authors.enabled": false,
@@ -160,6 +163,7 @@
     "python.languageServer": "Pylance",
     "python.terminal.activateEnvironment": false,
     "python.terminal.executeInFileDir": true,
+    "python.testing.pytestEnabled": true,
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
@@ -168,8 +172,11 @@
         "editor.formatOnPaste": false,
         "editor.formatOnSaveMode": "file"
     },
+    //// swift
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    "lldb.launch.expressions": "native",
     // misc
     "telemetry.telemetryLevel": "off",
     "workbench.settings.editor": "json",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
 }
