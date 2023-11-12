@@ -2,15 +2,15 @@
     // color theme
     "window.autoDetectColorScheme": true,
     "workbench.colorTheme": "GitHub Light Default",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
     // font
-    "editor.fontFamily": "Cascadia Code PL",
+    "editor.fontFamily": "'Berkeley Mono', 'Monaspace Neon', 'Cascadia Code', 'Fira Code', 'Operator Mono', 'Pragmata Pro Mono', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.fontWeight": "normal",
-    "workbench.fontAliasing": "auto",
+    "workbench.fontAliasing": "default",
     // format
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -22,9 +22,8 @@
     "files.trimTrailingWhitespace": true,
     // window
     "window.dialogStyle": "custom",
-    "window.nativeTabs": false,
+    "window.nativeTabs": true,
     "window.titleBarStyle": "custom",
-    "workbench.activityBar.location": "top",
     // explorer
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
