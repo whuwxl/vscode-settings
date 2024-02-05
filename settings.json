@@ -1,7 +1,7 @@
 {
     // color theme
     "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "GitHub Light Default",
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
@@ -21,9 +21,10 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     // window
+    "window.customTitleBarVisibility": "never",
     "window.dialogStyle": "custom",
     "window.nativeTabs": true,
-    "window.titleBarStyle": "custom",
+    "window.titleBarStyle": "native",
     // explorer
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -161,7 +162,7 @@
     },
     "python.analysis.autoImportCompletions": true,
     "python.analysis.typeCheckingMode": "basic",
-    "python.languageServer": "Pylance",
+    "python.languageServer": "Default",
     "python.terminal.activateEnvironment": false,
     "python.terminal.executeInFileDir": true,
     "python.testing.pytestEnabled": true,
@@ -176,7 +177,7 @@
     //// swift
     "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
     "lldb.launch.expressions": "native",
-    // misc
+    // telemetry
     "telemetry.telemetryLevel": "off",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
