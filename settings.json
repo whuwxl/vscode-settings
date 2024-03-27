@@ -1,14 +1,14 @@
 {
     // color theme
     "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorTheme": "GitHub Light Default",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
     // font
     "editor.fontFamily": "'Sarasa Mono SC', 'Monaspace Neon', 'Cascadia Code', 'Fira Code', 'Operator Mono', 'Berkeley Mono', 'Iosevka', 'Sarasa Mono SC', 'Pragmata Pro Mono', monospace",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "editor.fontWeight": "normal",
     "workbench.fontAliasing": "default",
     // format
@@ -79,7 +79,7 @@
     },
     // terminal
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.tabs.enabled": true,
     // extensions
     "extensions.autoUpdate": "onlyEnabledExtensions",
