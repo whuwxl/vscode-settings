@@ -25,6 +25,7 @@
     "window.dialogStyle": "custom",
     "window.nativeTabs": true,
     "window.titleBarStyle": "native",
+    "workbench.activityBar.location": "top",
     // explorer
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
