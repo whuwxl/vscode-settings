@@ -6,7 +6,7 @@
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
     // font
-    "editor.fontFamily": "'Sarasa Mono SC', 'Monaspace Neon', 'Cascadia Code', 'Fira Code', 'Operator Mono', 'Berkeley Mono', 'Iosevka', 'Sarasa Mono SC', 'Pragmata Pro Mono', monospace",
+    "editor.fontFamily": "'Iosevka', 'Fira Code', 'Cascadia Code', 'Iosevka', 'Monaspace Neon', 'Monaspace Argon', 'Monaspace Xenon', 'Monaspace Radon', 'Monaspace Krypton', 'Sarasa Mono SC', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "normal",
