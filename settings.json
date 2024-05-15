@@ -96,6 +96,7 @@
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.launchpad.indicator.enabled": false,
     "gitlens.menus": {
         "editor": {
             "blame": false,
