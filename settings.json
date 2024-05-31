@@ -1,7 +1,6 @@
 {
     // color theme
     "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "GitHub Light Default",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
@@ -86,6 +85,7 @@
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "extensions.ignoreRecommendations": true,
     //// github copilot
+    "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,
