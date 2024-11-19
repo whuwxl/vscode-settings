@@ -5,7 +5,7 @@
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
     // font
-    "editor.fontFamily": "'Iosevka', 'Fira Code', 'Cascadia Code', 'Iosevka', 'Monaspace Neon', 'Monaspace Argon', 'Monaspace Xenon', 'Monaspace Radon', 'Monaspace Krypton', 'Sarasa Mono SC', monospace",
+    "editor.fontFamily": "'Iosevka', 'Fira Code', 'Cascadia Code', 'Iosevka', 'Monaspace Neon', 'Monaspace Argon', 'Monaspace Xenon', 'Monaspace Radon', 'Monaspace Krypton', 'Sarasa Mono SC', 'Atkinson Hyperlegible', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "normal",
@@ -21,7 +21,7 @@
     "files.trimTrailingWhitespace": true,
     // window
     "window.customTitleBarVisibility": "never",
-    "window.dialogStyle": "custom",
+    "window.dialogStyle": "native",
     "window.nativeTabs": true,
     "window.titleBarStyle": "native",
     "workbench.activityBar.location": "top",
@@ -39,7 +39,6 @@
         "**/.ruff_cache": true,
         "**/.svn": true,
         "**/.venv": true,
-        "**/.vscode": true,
         "**/bazel-*": true,
         "**/CVS": true
     },
@@ -70,6 +69,7 @@
     "editor.suggest.showMethods": true,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
+    "files.autoGuessEncoding": true,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.splitSizing": "split",
@@ -181,6 +181,7 @@
     "lldb.launch.expressions": "native",
     // telemetry
     "telemetry.telemetryLevel": "off",
+    // misc
     "workbench.settings.editor": "json",
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "newUntitledFile"
 }
