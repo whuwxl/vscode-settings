@@ -5,7 +5,7 @@
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
     // font
-    "editor.fontFamily": "'Iosevka', 'Fira Code', 'Cascadia Code', 'Iosevka', 'Monaspace Neon', 'Monaspace Argon', 'Monaspace Xenon', 'Monaspace Radon', 'Monaspace Krypton', 'Sarasa Mono SC', 'Atkinson Hyperlegible', monospace",
+    "editor.fontFamily": "'Iosevka', 'Atkinson Hyperlegible', 'Cascadia Code', 'Fira Code', 'Iosevka', 'Monaspace Argon', 'Monaspace Krypton', 'Monaspace Neon', 'Monaspace Radon', 'Monaspace Xenon', 'Sarasa Mono SC', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "normal",
@@ -55,6 +55,7 @@
     "editor.cursorStyle": "block",
     "editor.guides.bracketPairs": "active",
     "editor.hover.sticky": true,
+    "editor.inlayHints.enabled": "off",
     "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "boundary",
@@ -79,19 +80,25 @@
     },
     // terminal
     "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "Iosevka Term",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.tabs.enabled": true,
     // extensions
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "extensions.ignoreRecommendations": true,
     //// github copilot
+    "chat.editor.wordWrap": "on",
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "github.copilot.chat.edits.enabled": true,
     "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.editor.enableCodeActions": true,
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,
         "markdown": false,
         "yaml": false
     },
+    "github.copilot.renameSuggestions.triggerAutomatically": true,
     //// gitlens
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.enabled": false,
@@ -163,7 +170,6 @@
         "jupyter-notebook": "left"
     },
     "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "basic",
     "python.languageServer": "Default",
     "python.terminal.activateEnvironment": false,
     "python.terminal.executeInFileDir": true,
