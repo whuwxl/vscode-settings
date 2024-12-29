@@ -78,6 +78,10 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "newUntitledFile",
+    // telemetry
+    "telemetry.telemetryLevel": "off",
     // terminal
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontFamily": "Iosevka Term",
@@ -86,10 +90,12 @@
     // extensions
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "extensions.ignoreRecommendations": true,
+    //// continue
+    "continue.enableTabAutocomplete": false,
+    "continue.telemetryEnabled": false,
     //// github copilot
     "chat.editor.wordWrap": "on",
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-    "github.copilot.chat.edits.enabled": true,
     "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.editor.enableCodeActions": true,
     "github.copilot.enable": {
@@ -99,55 +105,6 @@
         "yaml": false
     },
     "github.copilot.renameSuggestions.triggerAutomatically": true,
-    //// gitlens
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.launchpad.indicator.enabled": false,
-    "gitlens.menus": {
-        "editor": {
-            "blame": false,
-            "clipboard": true,
-            "compare": true,
-            "history": false,
-            "remote": false
-        },
-        "editorGroup": {
-            "blame": true,
-            "compare": false
-        },
-        "editorTab": {
-            "clipboard": true,
-            "compare": true,
-            "history": true,
-            "remote": true
-        },
-        "explorer": {
-            "clipboard": true,
-            "compare": true,
-            "history": true,
-            "remote": true
-        },
-        "scm": {
-            "authors": true
-        },
-        "scmGroup": {
-            "compare": true,
-            "openClose": true,
-            "stash": true
-        },
-        "scmGroupInline": {
-            "stash": true
-        },
-        "scmItem": {
-            "clipboard": true,
-            "compare": true,
-            "history": true,
-            "remote": false,
-            "stash": true
-        }
-    },
-    "gitlens.plusFeatures.enabled": false,
     //// go
     "go.lintFlags": [
         "--fast",
@@ -170,7 +127,7 @@
         "jupyter-notebook": "left"
     },
     "python.analysis.autoImportCompletions": true,
-    "python.languageServer": "Default",
+    "python.languageServer": "None",
     "python.terminal.activateEnvironment": false,
     "python.terminal.executeInFileDir": true,
     "python.testing.pytestEnabled": true,
@@ -185,9 +142,7 @@
     //// swift
     "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
     "lldb.launch.expressions": "native",
-    // telemetry
-    "telemetry.telemetryLevel": "off",
-    // misc
-    "workbench.settings.editor": "json",
-    "workbench.startupEditor": "newUntitledFile"
+    //// tabnbine
+    "tabnine.codeLensEnabled": false,
+    "tabnine.experimentalAutoImports": true
 }
