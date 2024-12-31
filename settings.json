@@ -92,6 +92,7 @@
     "extensions.ignoreRecommendations": true,
     //// continue
     "continue.enableTabAutocomplete": false,
+    "continue.showInlineTip": false,
     "continue.telemetryEnabled": false,
     //// github copilot
     "chat.editor.wordWrap": "on",
@@ -108,8 +109,7 @@
     //// go
     "go.lintFlags": [
         "--fast",
-        "--enable-all",
-        "--disable=depguard"
+        "--enable-all"
     ],
     "go.lintOnSave": "workspace",
     "go.lintTool": "golangci-lint",
