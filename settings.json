@@ -5,7 +5,7 @@
     "workbench.preferredDarkColorTheme": "GitHub Dark Default",
     "workbench.preferredLightColorTheme": "GitHub Light Default",
     // font
-    "editor.fontFamily": "'Iosevka', 'Atkinson Hyperlegible', 'Cascadia Code', 'Fira Code', 'Iosevka', 'Monaspace Argon', 'Monaspace Krypton', 'Monaspace Neon', 'Monaspace Radon', 'Monaspace Xenon', 'Sarasa Mono SC', monospace",
+    "editor.fontFamily": "'Iosevka', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "normal",
@@ -71,6 +71,8 @@
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
     "files.autoGuessEncoding": true,
+    "git.blame.editorDecoration.enabled": true,
+    "github.showAvatar": false,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.splitSizing": "split",
@@ -86,6 +88,7 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontFamily": "Iosevka Term",
     "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.tabs.enabled": true,
     // extensions
     "extensions.autoUpdate": "onlyEnabledExtensions",
@@ -105,6 +108,7 @@
         "markdown": false,
         "yaml": false
     },
+    "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.renameSuggestions.triggerAutomatically": true,
     //// go
     "go.lintFlags": [
