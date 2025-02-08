@@ -93,13 +93,11 @@
     // extensions
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "extensions.ignoreRecommendations": true,
-    //// continue
-    "continue.enableTabAutocomplete": false,
-    "continue.showInlineTip": false,
-    "continue.telemetryEnabled": false,
     //// github copilot
     "chat.editor.wordWrap": "on",
+    "chat.promptFiles": true,
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "github.copilot.chat.edits.codesearch.enabled": true,
     "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.editor.enableCodeActions": true,
     "github.copilot.enable": {
@@ -130,9 +128,11 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "python.analysis.autoImportCompletions": true,
-    "python.languageServer": "None",
-    "python.terminal.activateEnvironment": false,
+    "python.analysis.aiCodeActions": {
+        "generateSymbol": true
+    },
+    "python.languageServer": "Pylance",
+    "python.terminal.activateEnvironment": true,
     "python.terminal.executeInFileDir": true,
     "python.testing.pytestEnabled": true,
     "[python]": {
@@ -145,8 +145,5 @@
     },
     //// swift
     "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
-    "lldb.launch.expressions": "native",
-    //// tabnbine
-    "tabnine.codeLensEnabled": false,
-    "tabnine.experimentalAutoImports": true
+    "lldb.launch.expressions": "native"
 }
