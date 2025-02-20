@@ -87,8 +87,8 @@
     // terminal
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontFamily": "Iosevka Term",
-    "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.tabs.enabled": true,
     // extensions
     "extensions.autoUpdate": "onlyEnabledExtensions",
@@ -131,6 +131,7 @@
     "python.analysis.aiCodeActions": {
         "generateSymbol": true
     },
+    "python.analysis.autoImportCompletions": true,
     "python.languageServer": "Pylance",
     "python.terminal.activateEnvironment": true,
     "python.terminal.executeInFileDir": true,
