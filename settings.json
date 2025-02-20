@@ -19,16 +19,11 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    // window
-    "window.customTitleBarVisibility": "never",
-    "window.dialogStyle": "native",
-    "window.nativeTabs": true,
-    "window.titleBarStyle": "native",
-    "workbench.activityBar.location": "top",
     // explorer
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.exclude": {
+        "**/.ropeproject": true,
         "**/__pycache__": true,
         "**/.DS_Store": true,
         "**/.git": true,
@@ -108,6 +103,7 @@
     },
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.renameSuggestions.triggerAutomatically": true,
+    "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
     //// go
     "go.lintFlags": [
         "--fast",
@@ -145,6 +141,6 @@
         "editor.formatOnSaveMode": "file"
     },
     //// swift
-    "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
-    "lldb.launch.expressions": "native"
+    "lldb.launch.expressions": "native",
+    "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB"
 }
