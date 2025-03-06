@@ -2,8 +2,8 @@
     // color theme
     "window.autoDetectColorScheme": true,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
-    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
     // font
     "editor.fontFamily": "'Iosevka', monospace",
     "editor.fontLigatures": true,
@@ -19,6 +19,12 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    // window
+    "window.customTitleBarVisibility": "never",
+    "window.dialogStyle": "native",
+    "window.nativeTabs": true,
+    "window.titleBarStyle": "native",
+    "workbench.activityBar.location": "top",
     // explorer
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -50,7 +56,7 @@
     "editor.cursorStyle": "block",
     "editor.guides.bracketPairs": "active",
     "editor.hover.sticky": true,
-    "editor.inlayHints.enabled": "off",
+    "editor.inlayHints.enabled": "offUnlessPressed",
     "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "boundary",
@@ -67,6 +73,7 @@
     "editor.wordWrapColumn": 120,
     "files.autoGuessEncoding": true,
     "git.blame.editorDecoration.enabled": true,
+    "git.discardUntrackedChangesToTrash": true,
     "github.showAvatar": false,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.highlightModifiedTabs": true,
@@ -88,11 +95,32 @@
     // extensions
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "extensions.ignoreRecommendations": true,
+    //// c/cpp
+    "clangd.enable": false,
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.codeAnalysis.clangTidy.checks.enabled": [
+        "clang-analyzer-*",
+        "misc-include-cleaner"
+    ],
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [],
+    "C_Cpp.default.compilerPath": "/usr/bin/clang",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.defines": [],
+    "C_Cpp.default.includePath": [],
+    "C_Cpp.default.intelliSenseMode": "macos-clang-arm64",
+    "C_Cpp.default.macFrameworkPath": [
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+    ],
+    "C_Cpp.intelliSenseCacheSize": 0,
     //// github copilot
     "chat.editor.wordWrap": "on",
+    "chat.experimental.statusIndicator.enabled": false,
     "chat.promptFiles": true,
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-    "github.copilot.chat.edits.codesearch.enabled": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.agent.runTasks": true,
     "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.editor.enableCodeActions": true,
     "github.copilot.enable": {
@@ -115,6 +143,9 @@
     "gopls": {
         "formatting.gofumpt": true
     },
+    //// lldb
+    "lldb.launch.expressions": "native",
+    "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB",
     //// python
     "isort.args": [
         "--profile",
@@ -124,6 +155,7 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
+    "notebook.diff.experimental.toggleInline": true,
     "python.analysis.aiCodeActions": {
         "generateSymbol": true
     },
@@ -141,6 +173,7 @@
         "editor.formatOnSaveMode": "file"
     },
     //// swift
-    "lldb.launch.expressions": "native",
-    "lldb.library": "/Library/Developer/CommandLineTools/Library/PrivateFrameworks/LLDB.framework/Versions/A/LLDB"
+    "swift.sourcekit-lsp.supported-languages": [
+        "swift"
+    ]
 }
