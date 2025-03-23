@@ -171,9 +171,5 @@
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnPaste": false,
         "editor.formatOnSaveMode": "file"
-    },
-    //// swift
-    "swift.sourcekit-lsp.supported-languages": [
-        "swift"
-    ]
+    }
 }
